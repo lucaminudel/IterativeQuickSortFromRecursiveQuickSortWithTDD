@@ -26,7 +26,8 @@ namespace QuickSort
 				}
 			}
 
-			var quickSort = new RecursiveQuickSort();
+			//var quickSort = new RecursiveQuickSort();
+			var quickSort = new IterativeQuickSort();
 
 			int[] arrayToBeSorted = validNumgersAsInt.ToArray();
 			quickSort.Sort(arrayToBeSorted);

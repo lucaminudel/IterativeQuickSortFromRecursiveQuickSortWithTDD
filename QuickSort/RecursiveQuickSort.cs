@@ -1,7 +1,7 @@
 ﻿
 namespace QuickSort
 {
-	public class RecursiveQuickSort : ISortProblemSolver
+	public class RecursiveQuickSort : ISortProblemSolver, ISort
 	{
 
 		public void Sort(int[] arrayToBeSorted)
